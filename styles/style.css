@@ -1,0 +1,146 @@
+.inter-common-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+  }
+
+  .salsa-regular {
+    font-family: "Salsa", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+/*Common styles*/
+.display-flex {
+    display: flex;
+}
+.bg-primary{
+    background-color:  #303030;
+}
+.white {
+    color: white;
+}
+.secondary-color {
+    color: rgba(255, 255, 255, 0.5);
+}
+/*Header related styles*/
+
+
+/*Nav related styles*/
+.header {
+
+}
+.nav, .banner {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.nav {
+    justify-content: space-between;
+    align-items: center;
+}
+.nav ul {
+    border: 1px solid rgba(242, 239, 239, 0.071);
+    border-radius: 15px;
+    margin-top: 50px;
+}
+.nav .nav-item {
+    list-style: none;
+    margin: 5px 20px;
+}
+.nav .nav-link{
+    text-decoration: none;
+    color: white;
+}
+.color {
+    background-color: #E6533C;
+    border: 1px solid #E6533C;
+    border-radius: 15px;
+}
+.icon {
+    display: none;
+}
+.brand {
+    font-size: 2.2rem;
+    font-weight: 800;
+    font-style: italic;
+    color: #E6533C;
+    margin-top: 50px;
+}
+#banner-details {
+    width: 520px;
+    height: 440px;
+}
+.banner-title {
+    font-size: 4rem;
+    font-weight: 800;
+    margin-top: 90px;
+    margin-bottom: 20px;
+}
+.banner-des {
+    font-size: .8rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.btn-primary {
+    padding: 15px 35px;
+    border: none;
+    border-radius: 50px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-right: 10px;
+  }
+#common-btn {
+    background-color: #E6533C;
+    border: none;
+}
+.banner-img {
+    width: 349px;
+    height: 580px;
+}
+.over-img {
+    padding: 20px 30px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    font-weight: bold;
+  }
+  .size {
+    font-size: 2rem;
+  }
+  #position {
+   position: absolute;
+
+   top: 250px;
+   right:120px;
+  }
+  #btn-2 {
+    padding: 20px 40px;
+    position: relative;
+  }
+  .bitto {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: #E6533C;
+
+    position: absolute;
+
+    margin-top: 10px;
+    right: 117px;
+  }
+  .button-2 {
+    position: absolute;
+    top: 550px;
+  }
